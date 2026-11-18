@@ -34,4 +34,4 @@ cat > ./xray-config.json <<EOF
 }
 EOF
 
-exec ./xray run -c ./xray-config.json
+exec /usr/local/bin/xray run -c ./xray-config.json
